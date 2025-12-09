@@ -20,3 +20,7 @@ print(person1)
 # ENCAPSULATION
 # ABSTRACTION
 #POLYMORPHISM: Making objects respond to the same method call
+
+import datetime
+current_time = datetime.datetime.now
+print(f"The time is {current_time.strftime ("%d-%m-%y, %H: %M: %S")}")
