@@ -24,3 +24,6 @@ print(person1)
 import datetime
 current_time = datetime.datetime.now
 print(f"The time is {current_time.strftime ("%d-%m-%y, %H: %M: %S")}")
+
+print(encode("EL-SHADDAI"))
+print(decode(encode("EL-SHADDAI")))
