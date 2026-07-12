@@ -1,5 +1,6 @@
 w=10
-if w <=15 : print("Big pie")
+later = 20
+if w <= later : print("Big pie")
 person = "Joy"
 city = "Kumasi"
 age = 15
